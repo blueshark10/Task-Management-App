@@ -1,0 +1,126 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 5px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background: transparent;
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: salmon;
+  border:none;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
+button:hover {
+  background: lightsalmon;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  border-radius: 10px;
+  height: 25rem;
+  width: 25rem;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 5px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid ;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* margin: 10px; */
+}
+.logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+.navigation {
+  color: black;
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation ul li {
+  margin-right: 1rem;
+}
+
+.navigation ul li:last-child {
+  margin-right: 0;
+}
+
+.navigation a {
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.navigation a:hover {
+  background-color: #555;
+  border-radius:5px;
+  color: #fff;
+}
+.cal-container{
+  background-color: #fff;
+  box-shadow: 0 0 5px #999;
+  padding: 10px;
+  border-radius: 5px;
+}
+input[type='number']{
+  border-radius: 5px;
+  border:1px solid grey;
+  padding: 10px;
+  margin-top:15px;
+}

@@ -1,0 +1,15 @@
+
+export const getJWTToken=(username,password)=>{
+// let jwt = require("jsonwebtoken");
+
+//     let jwtToken = jwt.sign(
+//           {
+//             username,
+//             password
+//           },
+//           "secretKey",
+//           { expiresIn: "1h" }
+//         );
+//     return jwtToken;
+return ("yomopo") 
+};
