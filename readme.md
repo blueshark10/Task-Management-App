@@ -9,10 +9,15 @@ Stack Used : It will be built using MERN stack
 Benefits of MERN Stack : App built through MERN is Fast , Resoponsive , and code architecture is comprehensible and extensible.
 
 Requirements :
+
 ● Database: MongoDB.
+
 ● Database Live: MongoDB Atlas
+
 ● Server: Express using Nodejs
+
 ● Authentication: normal username and password).
+
 ● Front End : React
 
 WireFrame: 
